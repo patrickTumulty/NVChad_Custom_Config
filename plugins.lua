@@ -6,5 +6,16 @@ local plugins = {
       require "custom.configs.lspconfig"
     end,
   },
+  {
+    "williamboman/mason.nvim",
+    opts = {
+      ensure_installed = {
+        "lua-language-server",
+        "rust-analyzer",
+        "java-language-server",
+        "pylint"
+      },
+    },
+  },
 }
 return plugins
