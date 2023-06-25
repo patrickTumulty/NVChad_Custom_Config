@@ -12,8 +12,18 @@ local plugins = {
       ensure_installed = {
         "lua-language-server",
         "rust-analyzer",
-        "java-language-server",
-        "pylint"
+        "pylint",
+        "clangd",
+        "clang-format",
+        "rustfmt",
+        "cmakelang",
+        "cpplint",
+        "cpptools",
+        "cmakelint",
+        "cmake-language-server",
+        "dockerfile-language-server",
+        "python-lsp-server",
+        "bash-language-server"
       },
     },
   },
