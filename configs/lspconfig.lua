@@ -3,7 +3,7 @@ local capabilities = require("plugins.configs.lspconfig").capabilities
 
 local lspconfig = require "lspconfig"
 local servers = {
-  "clangd", 
+  "clangd",
   "rust_analyzer"
 }
 
